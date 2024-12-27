@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration | ADIMH</title>
+    <link rel="stylesheet" href="assets/css/form.css">
+    <link rel="stylesheet" href="assets/bootstarp/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/webfont/stylesheet.css">
+    <link rel="stylesheet" href="assets/css/custom-style.css">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@24.1.3/build/css/intlTelInput.css"> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <section class="main-container">
+        <div class="logo-container-out">
+            <div class="container">
+
+
+                <!-- header  -->
+                <nav class="navbar">
+                    <ul class="nav-list">
+                      <li class="nav-item nav-home">
+                        <a href="#" class="nav-link">Home</a>
+                        <ul class="dropdown nav-drop">
+                            <div class="nav-drop-in">
+                                <li><a href="#">Call for Speakers</a></li>
+                                <li><a href="#">Call for Creative Work</a></li>
+                                <li><a href="#">Call for Abstracts</a></li>
+                            </div>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#" class="nav-link register">Register Now →</a>
+                      </li>
+                    </ul>
+                  </nav>
+
+                  
+                <!-- <div class="nav-header">
+                    <div class="container">
+                    <nav class="navbar navbar-expand-lg nav-sec">
+                        <div class="container-fluid">
+                        <a class="navbar-brand logo" href="#">
+                            <img src="images/logo.png" class="img-fluid" alt="logo">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            </ul>
+                            <div class="register-btn">
+                            <button class="btn" type="submit">REGISTER NOW  <span><i class="fa-solid fa-arrow-right"></i></span></button>
+                            </div>
+                        </div>
+                        </div>
+                    </nav>
+                    </div>
+                </div> -->
+                <!-- END header  -->
+
+
+                <!-- <div class="image-container">
+                    <img src="assets/images/legal-forum.svg" alt="" class="d-block footer-logo">
+                </div> -->
+            </div>
+        </div>
+        <div class="container">
+            <div class="form-container">
+                <div class="form-wrap">
+                    <!-- logo-start -->
+                    
+                    <!-- logo-end -->
+                    <div class="loc-container">
+                        <div class="banner-inner-sec d-inline-block w-100 form-loc">
+                            <div class="detail-head-div">
+                                <div>
+                                    <!-- <ul class="list-unstyled wow bounceInUp" data-wow-duration="2s">
+                                        <li class="d-inline-block"><i class="fas fa-calendar-alt" aria-hidden="true"></i> October 22nd 2024</li>
+                                       <li class="d-inline-block"><i class="fas fa-clock"></i>9:00 AM - 4:00 PM</li>
+                                    </ul>
+                                    <ul>
+                                        <li class="d-inline-block"><i class="fas fa-map-marker-alt"></i> Fairmont Hotel, Riyadh
+                                            Business Gate, Qurtubah</li>
+                                    </ul> -->
+
+                                    <div class="row ">
+                                        <div class="col-lg-5">
+                                            <div class="form-style-head brd-right">
+                                                <h4>9:00 AM - 4:00 PM</h4>
+                                                <h6>Fairmont Hotel, UAE
+                                                    Business Gate, Qurtubah</h6>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-4 form-paddng-left">
+                                            <div class="form-style-head">
+                                                <h4>Friday-Saturday</h4>
+                                                <h6>February 7-8, 2025</h6>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                         </div>
+                      
+                    </div>
+
+                    
+                <!-- form-start -->
+                    <div class="form-start">
+                        <div class="form-wrap">
+                            <form id="survey-form">
+                                <h6 class="field-eg">
+                                    Please enter your details below, Fields marked with a <span>*</span> are mandatory. <br>
+                                    <span class="red-text">*When adding your phone number, ensure your country area code is entered first, e.g +971*</span>
+                                </h6>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-12">
+                                        <div class="form-group">
+                                       
+                                          <label for="title">Title <span>*</span></label>
+                                          <select  class="form-control" placeholder="title">
+                                              <option style="display: none;">Select...</option>
+                                              <option>Mr.</option>
+                                              <option>Mrs.</option>
+                                              <option>Ms.</option>
+                                              <option>Eng.</option>
+                                              <option>Dr.</option>
+                                              <option>Sheikh</option>
+                                              <option>Sheikha</option>
+                                              <option>Capt.</option>
+                                              <option>Cheif</option>
+                                              <option>Col.</option>
+                                              <option>Gov.</option>
+                                              <option>H.E.</option>
+                                              <option>H.H.</option>
+                                              <option>H.R.H.</option>
+                                              <option>Hon.</option>
+                                              <option>Lt.</option>
+                                              
+
+                                              <option>Maj.</option>
+                                              <option>Prof.</option>
+                                              <option>Sir.</option>
+                                              <option>Brig.</option>
+                                              <option>Gen.</option>
+                                              <option>Adm.</option>
+                                              <option>Amb.</option>
+                                              <option>Brig Gen.</option>
+                                              <option>Other</option>
+                                            </select>
+                                        </div>
+                                      </div>
+
+                                      
+                                    <div class="col-lg-6 col-md-12">
+                                        <div class="form-group">
+                                            <label for="name">Name <span>*</span></label>
+                                            <input type="text" name="name" id="name" placeholder=""
+                                                class="form-control" required>
+                                        </div>
+                                    </div>
+
+                                    
+                                </div>
+                                <div class="row">
+
+
+                                    <!-- <div class="col-lg-6 col-md-12">
+                                        <div class="form-group">
+                                            
+                                            <label for="job">⁠Job Title <span>*</span></label>
+                                            <input type="⁠Job Title" name="job" id="job" placeholder="⁠Job Title"
+                                                class="form-control" required>
+                                        </div>
+                                    </div> -->
+
+                                    <div class="col-lg-6 col-md-12">
+                                        <div class="form-group">
+                                           
+                                            <label for="email">Email <span>*</span></label>
+                                            <input type="email" name="email" id="email" placeholder=""
+                                                class="form-control" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-12">
+                                        <div class="form-group">
+                                            <label for="phone">Mobile <span>*</span></label>
+                                            <input type="mobile" name="mobile"  placeholder=""
+                                                class="form-control" required>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-12">
+                                        <div class="form-group">
+                                            <label for="Speciality">Speciality <span>*</span></label>
+                                            <input type="text" name="speciality"  placeholder=""
+                                                class="form-control" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12">
+                                        <div class="form-group">
+                                            <label for="Job Title">Job Title <span>*</span></label>
+                                            <input type="text" name="job_title"  placeholder=""
+                                                class="form-control" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-12">
+                                        <div class="form-group">
+                                            <label for="Facility">Facility <span>*</span></label>
+                                            <input type="text" name="facility"  placeholder=""
+                                                class="form-control" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12">
+                                        <div class="form-group">
+                                          <label for="Nationality">Nationality <span>*</span></label>
+                                          <select  class=" form-control" placeholder="">
+                                              <option>United Arab Emirates (UAE)</option>
+                                              <option>Saudi Arabia</option>
+                                              <option>Baharain</option>
+                                              <option>Qatar</option>
+                                              <option>Oman</option>
+                                            </select>
+                                        </div>
+                                      </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-12">
+                                        <div class="form-group">
+                                          <label for="Country of Practice">Country of Practice <span>*</span></label>
+                                          <select  class=" form-control" placeholder="">
+                                            <option style="display: none;">Select...</option>
+                                              <option>United Arab Emirates (UAE)</option>
+                                              <option>Saudi Arabia</option>
+                                              <option>Baharain</option>
+                                              <option>Qatar</option>
+                                              <option>Oman</option>
+                                            </select>
+                                        </div>
+                                      </div>
+                                      <div class="col-lg-6 col-md-12">
+                                        <div class="form-group">
+                                            <label for="Address City">City<span>*</span></label>
+                                            <input type="text" name="address_city" id="address_city" placeholder=""
+                                                class="form-control" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                  
+                                <div class="row ">
+                                    <div class="col-md-12">
+                                        <div class="d-flex justify-content-center">
+                                            <a href="succes.html">
+                                                <button type="button" class="button2 ">Submit</button>
+                                            </a>
+                                            
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                <!-- form-close -->
+
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+
+
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+        <div class="ft-content">
+            <h3>Conference Registration</h3>
+            <p>
+            Join us for a dynamic program featuring keynote speakers, 
+            interactive workshops, and networking opportunities.
+            </p>
+            <button class="btn" type="submit"> JOIN NOW </button>
+            
+            <div class="colondar">
+                <div class="cl-content-frst first-one border-right">
+                <div class="cl-icon1"><i class="fa-solid fa-calendar-days"></i></div>
+                <div class="cl-date">
+                    <h4>07-08</h4>
+                    <h6>February 2025</h6>
+                </div>
+                </div>
+                <div class="cl-content-frst">
+                <div class="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="location-cont">
+                    <h5>Abu Dhabi <br /> Energy Center</h5>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END footer -->
+
+
+
+
+
+        <!-- popup -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                    <div></div>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                </div>
+                <div class="modal-body">
+                    <div class="success-animation">
+                        <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52"><circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" /><path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" /></svg>
+                    </div>
+                    <p>
+                        Succesfully Submited!
+                    </p>
+                    <div class="qr-code-div">
+                        <img src="assets/images/qr-code.webp" alt="" class="img-fluid">
+                    </div>
+                    <h5 class="modal-ticket-id">ID: 8524125</h5>
+                </div>
+                <div class="modal-footer">
+                    <a href="agenda.html">
+                        <button type="button" class="button3" data-bs-dismiss="modal">Close</button>
+                    </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- close -->
+    </section>
+
+
+    
+
+    <script src="assets/form-js/jquery-3.6.0.min.js"></script>
+    <!-- <script src="assets/js/gsap.min.js"></script> -->
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/script-1.js"></script>
+    <script src="assets/f/bootstrap.min.js"></script>
+    <script src="assets/form-js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/49ccdaea81.js" crossorigin="anonymous "></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@24.1.3/build/js/intlTelInput.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script> -->
+
+
+
+    <script>
+        $("#single").select2({
+          placeholder: "Select a programming language",
+          allowClear: true
+      });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+
+
+
+
+@font-face {
+    font-family: 'fundlight';
+    src: url('fund-light-webfont.woff2') format('woff2'),
+         url('fund-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'fundmedium';
+    src: url('fund-medium-webfont.woff2') format('woff2'),
+         url('fund-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'fund_regularregular';
+    src: url('fund-regular-webfont.woff2') format('woff2'),
+         url('fund-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'fundsemibold';
+    src: url('fund-semibold-webfont.woff2') format('woff2'),
+         url('fund-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
