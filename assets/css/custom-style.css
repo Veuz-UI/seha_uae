@@ -3217,4 +3217,7 @@ button.close:hover{
     .nav-list {
         gap: 5px;
     }
+    .location-cont h5 {
+        font-size: 13px;
+    }
   }
