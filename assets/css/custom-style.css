@@ -2555,6 +2555,7 @@ button.close:hover{
   /* Show Dropdown on Hover */
   .nav-item:hover .dropdown {
     display: block;
+    z-index: 12;
   }
   
 /* .nav-header ul li a{
