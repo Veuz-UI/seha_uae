@@ -2473,6 +2473,7 @@ button.close:hover{
     display: flex;
     gap: 20px;
     width: 100%;
+    justify-content: space-between;
   }
   .nav-list .nav-home {
     width: 75%;
@@ -3046,9 +3047,6 @@ button.close:hover{
   }
 
 
-
-
-
   .file-upload {
     display: flex;
     align-items: center;
@@ -3124,7 +3122,6 @@ button.close:hover{
     .custom-container {
         padding: 0px 35px;
     }
-   
 
     .ticket-cntnt-main{
         flex-direction: column;
@@ -3133,6 +3130,22 @@ button.close:hover{
     .ticket-summary h4{
         text-align: center;
     }
+    .footer .ft-content{
+        max-width: 75%;
+    }
+    .nav-drop-in{
+        flex-direction: column;
+    }
+    .nav-drop-in li{
+        width: 100%;
+    }
+    .dropdown li {
+        padding: 5px 20px;
+    }
+    .nav-list .nav-home {
+        width: 60%;
+    }
+   
   }
 
   @media only screen and (max-width: 768px){
@@ -3142,6 +3155,40 @@ button.close:hover{
     .ticket-summary h4{
         margin-top: 10px;
     }
+    .nav-list .nav-home{
+        width: 50%;
+    }
+    .footer .ft-content{
+        max-width: 100%;
+    }
+    .location-cont h5{
+        font-size: 15px;
+    }
+    .cl-date h4{
+        font-size: 15px;
+    }
+    .location {
+        font-size: 25px;
+    }
+    .cl-content-frst .fa-calendar-days{
+        font-size: 25px;
+    }
+    .footer {
+        padding: 30px 0;
+    }
+    .ft-content h3{
+        font-size: 20px;
+    }
+    .colondar{
+        margin: 20px 0px 0px;
+    }
+    .register{
+        font-size: 15px;
+    }
+    .nav-list{
+        gap: 10px;
+    }
+    
   }
 
   @media only screen and (max-width: 600px){
@@ -3156,5 +3203,14 @@ button.close:hover{
     }
     .ticket-summary{
         padding: 15px;
+    }
+    .nav-list .nav-home {
+        width: 40%;
+    }
+    .nav-drop{
+        width: 300px !important;
+    }
+    .cl-content-frst{
+        padding: 0px 5px;
     }
   }
