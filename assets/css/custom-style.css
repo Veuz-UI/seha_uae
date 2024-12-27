@@ -2534,6 +2534,7 @@ button.close:hover{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     display: none;
+    z-index: 1;
   }
   
   .dropdown li {
